@@ -1,7 +1,6 @@
 package uz.learn;
 
 import java.time.Instant;
-import java.util.Date;
 import java.util.UUID;
 
 import com.datastax.oss.driver.api.mapper.annotations.CqlName;

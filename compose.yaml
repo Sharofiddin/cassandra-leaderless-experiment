@@ -5,17 +5,38 @@ services:
       - "9042:9042"
     environment:
       - CASSANDRA_CLUSTER_NAME=cassandra_cl
-      - JVM_OPTS=-Xms512m -Xmx512m
+      - JVM_OPTS=-Xms256m -Xmx512m
   cassandra_2:
     image: cassandra:latest
     environment:
       - CASSANDRA_CLUSTER_NAME=cassandra_cl
-      - JVM_OPTS=-Xms512m -Xmx512m
+      - JVM_OPTS=-Xms256m -Xmx512m
       - CASSANDRA_SEEDS=cassandra_1
 
   cassandra_3:
     image: cassandra:latest
     environment:
       - CASSANDRA_CLUSTER_NAME=cassandra_cl
-      - JVM_OPTS=-Xms512m -Xmx512m
+      - JVM_OPTS=-Xms256m -Xmx512m
       - CASSANDRA_SEEDS=cassandra_1
+
+  cassandra_4:
+    image: cassandra:latest
+    environment:
+      - CASSANDRA_CLUSTER_NAME=cassandra_cl
+      - CASSANDRA_SEEDS=cassandra_1
+      - JVM_OPTS=-Xms256m -Xmx512m
+
+  cassandra_5:
+    image: cassandra:latest
+    environment:
+      - CASSANDRA_CLUSTER_NAME=cassandra_cl
+      - CASSANDRA_SEEDS=cassandra_1
+      - JVM_OPTS=-Xms256m -Xmx512m
+
+  cassandra_6:
+    image: cassandra:latest
+    environment:
+      - CASSANDRA_CLUSTER_NAME=cassandra_cl
+      - CASSANDRA_SEEDS=cassandra_1
+      - JVM_OPTS=-Xms256m -Xmx512m
