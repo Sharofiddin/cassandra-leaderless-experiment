@@ -6,12 +6,16 @@ services:
     environment:
       - CASSANDRA_CLUSTER_NAME=cassandra_cl
       - JVM_OPTS=-Xms256m -Xmx512m
+      - HEAP_NEWSIZE=256M
+      - MAX_HEAP_SIZE=475M
   cassandra_2:
     image: cassandra:latest
     environment:
       - CASSANDRA_CLUSTER_NAME=cassandra_cl
       - JVM_OPTS=-Xms256m -Xmx512m
       - CASSANDRA_SEEDS=cassandra_1
+      - HEAP_NEWSIZE=256M
+      - MAX_HEAP_SIZE=475M
 
   cassandra_3:
     image: cassandra:latest
@@ -19,6 +23,8 @@ services:
       - CASSANDRA_CLUSTER_NAME=cassandra_cl
       - JVM_OPTS=-Xms256m -Xmx512m
       - CASSANDRA_SEEDS=cassandra_1
+      - HEAP_NEWSIZE=256M
+      - MAX_HEAP_SIZE=475M
 
   cassandra_4:
     image: cassandra:latest
@@ -26,6 +32,8 @@ services:
       - CASSANDRA_CLUSTER_NAME=cassandra_cl
       - CASSANDRA_SEEDS=cassandra_1
       - JVM_OPTS=-Xms256m -Xmx512m
+      - HEAP_NEWSIZE=256M
+      - MAX_HEAP_SIZE=475M
 
   cassandra_5:
     image: cassandra:latest
@@ -33,6 +41,8 @@ services:
       - CASSANDRA_CLUSTER_NAME=cassandra_cl
       - CASSANDRA_SEEDS=cassandra_1
       - JVM_OPTS=-Xms256m -Xmx512m
+      - HEAP_NEWSIZE=256M
+      - MAX_HEAP_SIZE=475M
 
   cassandra_6:
     image: cassandra:latest
@@ -40,3 +50,5 @@ services:
       - CASSANDRA_CLUSTER_NAME=cassandra_cl
       - CASSANDRA_SEEDS=cassandra_1
       - JVM_OPTS=-Xms256m -Xmx512m
+      - HEAP_NEWSIZE=256M
+      - MAX_HEAP_SIZE=475M

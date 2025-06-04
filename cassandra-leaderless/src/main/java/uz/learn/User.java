@@ -18,7 +18,6 @@ public class User {
     
     private final String name;
     
-    @CqlName("last_updated")
     private final Instant lastUpdated;
     
     public User(UUID id, String name, Instant lastUpdated) {
