@@ -1,0 +1,51 @@
+ "Containers": {
+            "00c06840d063b1643da701d72c2ed7cb61c8e006c3ab1f757f34bdfa4231fea4": {
+                "Name": "cassandra-leaderless-experiment-cassandra-dc1-seed-1",
+                "EndpointID": "c495de7292aa0487d6f15866c49227378a9ac4ad8555c24c56ff7cafe3e565fb",
+                "MacAddress": "da:c6:c2:e2:ba:e1",
+                "IPv4Address": "172.20.0.2/16",
+                "IPv6Address": ""
+            },
+            "505d0d2c9fbdbbd8b1bf96635839d20c90a662f532a4fbf62ea8ad3a57fe2c52": {
+                "Name": "cassandra-leaderless-experiment-cassandra-dc1-node3-1",
+                "EndpointID": "e45ab8e58d2c5a9a402b5df96f2b695756e11a6d8d35c8b1374110ccf53fcf85",
+                "MacAddress": "72:43:c8:ff:73:9e",
+                "IPv4Address": "172.20.0.4/16",
+                "IPv6Address": ""
+            },
+            "7f09bb746112dba2c49bd13a9ef4e699d320bb24421231a0e8e9a2a729b43e47": {
+                "Name": "cassandra-leaderless-experiment-prometheus-1",
+                "EndpointID": "79e602f9bf64224b9691ac4fe8d97bcf0ba2126550c720a6f9b582dbbb00626a",
+                "MacAddress": "46:94:a5:e6:94:88",
+                "IPv4Address": "172.20.0.8/16",
+                "IPv6Address": ""
+            },
+            "a665eb1fad25111914f65df50d30cfc66bcfbc0fe46dbfcc2e4777164400e699": {
+                "Name": "cassandra-leaderless-experiment-cassandra-dc1-node2-1",
+                "EndpointID": "38b0c6994acc6a0e0e192477d38f9d7ab2343c767921bc07102112e4f501ab20",
+                "MacAddress": "f6:ed:4b:f6:69:86",
+                "IPv4Address": "172.20.0.3/16",
+                "IPv6Address": ""
+            },
+            "c74c76b75d394155411438c9eb44434ff0006d67128fd6d112d84fdaa1cf47bf": {
+                "Name": "cassandra-leaderless-experiment-cassandra-dc2-node3-1",
+                "EndpointID": "46b04b2ace992b7d7cfe76a03d6deb4237447bb12b5f751d6daf93b6daf1253a",
+                "MacAddress": "36:6e:7e:dc:28:e9",
+                "IPv4Address": "172.20.0.7/16",
+                "IPv6Address": ""
+            },
+            "d90a463166bbacc66cb96dda1e2a697e5411dd58084596b158db3c6fae203ccd": {
+                "Name": "cassandra-leaderless-experiment-grafana-1",
+                "EndpointID": "614fa989a50c849fe5f2b894ea98786db1602be9bbae979bd21b9067aaf0d90c",
+                "MacAddress": "4a:23:a1:13:ce:44",
+                "IPv4Address": "172.20.0.9/16",
+                "IPv6Address": ""
+            },
+            "e6a404ab2eb3640faf2ed7e2401ef94e9c5c3758fcfaf082f07c366a1a541ca2": {
+                "Name": "cassandra-leaderless-experiment-cassandra-dc2-seed-1",
+                "EndpointID": "9002391398b2f929739523482d76452eeddf908f14b6d0314ed5ad41e0255fb0",
+                "MacAddress": "b6:f9:17:7d:cb:f9",
+                "IPv4Address": "172.20.0.5/16",
+                "IPv6Address": ""
+            }
+

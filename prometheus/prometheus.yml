@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'cassandra'
+    static_configs:
+      - targets: ['cassandra-dc1-seed:9100','cassandra-dc2-seed:9100','cassandra-dc1-node2:9100','cassandra-dc1-node3:9100','cassandra-dc2-node2:9100','cassandra-dc2-node3:9100']
